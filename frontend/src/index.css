@@ -1,0 +1,173 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Input Styles */
+.input-container {
+  position: relative;
+}
+
+.input-container input {
+  border-radius: 0.75rem; /* rounded-xl */
+  border: 1.5px solid #d1d5db; /* border-gray-300, close to WhatsApp's subtle gray */
+  padding: 0.5rem 0.75rem; /* Adjust padding to match WhatsApp */
+}
+
+.input-container span {
+  border-radius: 0 0 0.75rem 0.75rem; /* Round only bottom corners */
+  bottom: -1px; /* Align with the border */
+  background-color: #34c759; /* WhatsApp green */
+  height: 3px; /* Thicker bottom border like WhatsApp */
+}
+
+/* styles/globals.css */
+
+@keyframes slowBounce {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  20% {
+    transform: translateY(-10px) rotate(-5deg);
+  }
+  40% {
+    transform: translateY(-5px) rotate(5deg);
+  }
+  60% {
+    transform: translateY(-8px) rotate(0deg);
+  }
+}
+
+@keyframes gradientPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(0, 102, 255, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 46, 139, 0.7);
+  }
+}
+
+@keyframes innerGlow {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+  }
+  100% {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.3));
+  }
+}
+
+.animated-logo {
+  animation: slowBounce 4s ease-in-out infinite,
+    gradientPulse 6s ease-in-out infinite alternate;
+}
+
+.animated-logo img {
+  animation: innerGlow 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.animated-logo:hover img {
+  transform: scale(1.05) rotate(5deg);
+}
+
+/* FOR PROFIE IMAGE BORDER SHOWING */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning-gradient-ring {
+  background: conic-gradient(
+    from 0deg,
+    #0066ff,
+    #5e3cff,
+    #a033ff,
+    #d12bff,
+    #ff2e8b,
+    #0066ff
+  );
+  animation: spin 6s linear infinite;
+  border-radius: 9999px;
+}
+
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

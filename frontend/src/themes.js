@@ -1,0 +1,34 @@
+<>
+  <div data-theme="light"></div>
+  <div data-theme="dark"></div>
+  <div data-theme="cupcake"></div>
+  <div data-theme="retro"></div>
+  <div data-theme="bumblebee"></div>
+  <div data-theme="emerald"></div>
+  <div data-theme="corporate"></div>
+  <div data-theme="synthwave"></div>
+  <div data-theme="cyberpunk"></div>
+  <div data-theme="valentine"></div>
+  <div data-theme="halloween"></div>
+  <div data-theme="garden"></div>
+  <div data-theme="forest"></div>
+  <div data-theme="aqua"></div>
+  <div data-theme="lofi"></div>
+  <div data-theme="pastel"></div>
+  <div data-theme="fantasy"></div>
+  <div data-theme="wireframe"></div>
+  <div data-theme="black"></div>
+  <div data-theme="luxury"></div>
+  <div data-theme="dracula"></div>
+  <div data-theme="cmyk"></div>
+  <div data-theme="autumn"></div>
+  <div data-theme="business"></div>
+  <div data-theme="acid"></div>
+  <div data-theme="lemonade"></div>
+  <div data-theme="night"></div>
+  <div data-theme="coffee"></div>
+  <div data-theme="winter"></div>
+  <div data-theme="dim"></div>
+  <div data-theme="nord"></div>
+  <div data-theme="sunset"></div>
+</>;
